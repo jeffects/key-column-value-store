@@ -27,6 +27,6 @@ curl -i http://localhost:5000/api/v1/keys/a/cols/ab
 http://www.tutorialspoint.com/python
 https://docs.python.org/2/library/shelve.html?highlight=dictionary
 http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
-://docs.python.org/2/library/shelve.html?highlight=dictionary
+http://docs.python.org/2/library/shelve.html?highlight=dictionary
 
 
