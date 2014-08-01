@@ -1,0 +1,32 @@
+== Design
+
+I started this problem using Ruby first since it is the language I am most
+familiar with.  This allowed me to get the basically design down and ease the
+transition into Python since I am not familiar with the language.
+
+I used TDD with both Ruby and Python.  After writing the basically tests and
+implementation for Level 1 and Level 2, I started working with pure Python 
+because the Ruby implementation is not a requirement.
+
+I used Flask for Level 4 of the test.  The decision behind it is because it
+was pretty straight forward and reminds me of Ruby's Sinatra Framework.
+
+For Level 4, I did not use the TDD approach like I will normally do because
+I want to get more familiar with the microframework.  In order to test,
+I used cURL:
+
+== cURL Examples:
+
+curl -i -H "Content-Type: application/json" -X POST -d '{"key":"a",
+"col":"ab","val":"y" }' http://localhost:5000/api/v1/value
+curl -i http://localhost:5000/api/v1/keys
+curl -i http://localhost:5000/api/v1/keys/a/cols/ab
+
+== References:
+
+http://www.tutorialspoint.com/python
+https://docs.python.org/2/library/shelve.html?highlight=dictionary
+http://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
+://docs.python.org/2/library/shelve.html?highlight=dictionary
+
+
